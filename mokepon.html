@@ -5,38 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MOKEPON!</title>
+    <script src="./js/mokepon.js"></script>
 
 </head>
 <body>
     <h1>MOKEPON! 🔥💧🌿</h1>
 
-    <section id="Choose-Pet">
+    <section id="Select-Pet">
         <h2>Choose your Pet:</h2> 
 
-        <input type="radio" name="pet" />
-        <input type="radio" name="pet" />
-        <input type="radio" name="pet" />
 
-        Hipoge -> Water 
-        Capipepo -> Soil
-        Ratigueya -> Fire
-        langostelvis -> Water and Fire
-        Tucapalma -> Water and Soil
-        Pydos -> Soil and Fire
+        <label for="Hipodoge">Hipodoge</label>
+        <input type="radio" name="pet" id="Hipodoge" />
 
-        <button>Select</button>
+        <label for="Capipepo">Capipepo</label>
+        <input type="radio" name="pet" id="Capipepo"/>
+
+        <label for="Ratigueya">Ratigueya</label>
+        <input type="radio" name="pet" id="Ratigueya"/>
+
+        <label for="langostelvis">langostelvis</label>
+        <input type="radio" name="pet" id="langostelvis" />
+
+        <label for="Tucapalma">Tucapalma</label>
+        <input type="radio" name="pet" id="Tucapalma"/>
+
+        <label for="Pydos">Pydos</label>
+        <input type="radio" name="pet" id="Pydos"/>
+
+
+
+        <button id="button-pet">Select</button>
 
     </section>
     
-    <section id="Choose Attack">
+    <section id="Select Attack">
         <h2>Choose your Attack</h2>
 
         Your Pet has 3 lifes remaining 
         The enemy's Pet has 3 lifes remaining
 
-        <button>Fire 🔥</button>
-        <button> Water 💧</button>
-        <button>Oil 🌿</button>
+        <button id="button-fire">Fire 🔥</button>
+        <button id="button-water"> Water 💧</button>
+        <button id="button-oil">Oil 🌿</button>
     </section>
 
     <section id="Messages">
