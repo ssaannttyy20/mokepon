@@ -21,6 +21,8 @@ function selectPetPlayer(){
         alert("you have chosen Tucapalma")
      }else if(document.getElementById('Pydos').checked){
         alert("you have chosen Pydos")
+     }else {
+         alert("you have to choose an option")
      }
 
     
